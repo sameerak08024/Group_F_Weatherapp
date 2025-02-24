@@ -112,5 +112,8 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
+# Sidebar Navigation
+st.sidebar.markdown("---")  # Divider for better structure
+if st.sidebar.button("🏠 Back to Home Page"):
+    st.switch_page("Weather_app.py")  # Navigates back to main.py 
 
