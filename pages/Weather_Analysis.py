@@ -24,9 +24,7 @@ def set_background(image_path):
     st.markdown(bg_image, unsafe_allow_html=True)
 
 # Call the function
-set_background("C:/Users/SAMEERA/OneDrive/Desktop/Project/p2.jpg")
-
-
+set_background("p2.jpg")
 
 
 # Title
